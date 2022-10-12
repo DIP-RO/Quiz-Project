@@ -7,7 +7,7 @@ const Footer = () => {
         <p className="fw-bold">
           {" "}
           Copyright reserved by <span className="highlight">
-            {" "}Dipro Paul
+            {" "}@ Dipro Paul
             {" "}
           </span>{" "}
           2022

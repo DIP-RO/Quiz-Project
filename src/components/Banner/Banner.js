@@ -1,5 +1,5 @@
 import React from "react";
-// import banner from "../imgs/Quiz banner test yourself Thai.jpg";
+
 
 const Banner = () => {
   return (
