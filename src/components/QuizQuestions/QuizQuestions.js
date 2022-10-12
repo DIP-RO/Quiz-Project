@@ -21,7 +21,7 @@ const QuizQuestions = () => {
 
   return (
     <section>
-      <div className="d-flex align-items-center justify-content-center">
+      <div className="d-flex align-items-center justify-content-center bg-black">
         <div>
           <img
             src={logo}
@@ -31,10 +31,10 @@ const QuizQuestions = () => {
           />
         </div>{" "}
         <div>
-          <h1>
+          <h1 className="text-white">
             Quiz topic: <span className="highlight"> {name} </span>{" "}
           </h1>{" "}
-          <h4>
+          <h4 className="text-white">
             Given Question: <span className="highlight"> {total} </span>{" "}
           </h4>{" "}
         </div>{" "}
@@ -42,7 +42,7 @@ const QuizQuestions = () => {
       <div className="correct-answer text-center border p-3 text-dark container rounded">
         <h2> Your Score: {score} </h2>{" "}
       </div>
-      <div className="m-5">
+      <div className="m-5 bg-dark text-white">
         {" "}
         {questions.map((questionData) => (
           <Question
