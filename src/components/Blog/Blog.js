@@ -14,7 +14,7 @@ const Blog = () => {
             Applications.React Router is used to define multiple routes in the
             application.When a user types a specific URL into the browser, and
             if this URL path matches any 'route' inside the router file, the
-            user will be redirected to that particular route.{" "}
+            user will be redirected to that particular route.React Router is a standard library system built on top of the React and used to create routing in the React application using React Router Package. It provides the synchronous URL on the browser with data that will be displayed on the web page. It maintains the standard structure and behavior of the application and mainly used for developing single page web applications.{" "}
           </Accordion.Body>{" "}
         </Accordion.Item>{" "}
         <Accordion.Item eventKey="1">
@@ -24,7 +24,7 @@ const Blog = () => {
             produce global variables that can be passed around.This is the
             alternative to "prop drilling" or moving props from grandparent to
             child to parent, and so on.Context is also touted as an easier,
-            lighter approach to state management using Redux.{" "}
+            lighter approach to state management using Redux.React's context allows you to share information to any component, by storing it in a central place and allowing access to any component that requests it.{" "}
           </Accordion.Body>{" "}
         </Accordion.Item>{" "}
         <Accordion.Item eventKey="2">
