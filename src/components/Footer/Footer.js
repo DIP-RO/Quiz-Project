@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="text-center bg-light py-5">
+    <section className="text-center bg-dark py-5">
       <div className="social-icon">
         <p className="fw-bold">
           {" "}
